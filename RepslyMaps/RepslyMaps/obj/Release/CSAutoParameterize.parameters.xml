@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-RepslyMaps-20150723090147.mdf;Initial Catalog=aspnet-RepslyMaps-20150723090147;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Johny\\documents\\visual\ studio\ 2013\\Projects\\RepslyMaps\\RepslyMaps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="RepslyMapsContext-Web.config Connection String" description="RepslyMapsContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=RepslyMapsContext-20150724045949; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|RepslyMapsContext-20150724045949.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Johny\\documents\\visual\ studio\ 2013\\Projects\\RepslyMaps\\RepslyMaps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RepslyMapsContext']/@connectionString" />
+  </parameter>
+</parameters>
